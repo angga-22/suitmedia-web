@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "title": "BUKALAPAK.COM",
+        "link": "/work/bukalapak",
+        "img": "https://i.ibb.co/syGfWH8/bukalapak.jpg"
+    },
+    {
+        "id": 2,
+        "title": "INDONESIA STOCK EXCHANGE (IDX)",
+        "link": "/work/idx",
+        "img": "https://i.ibb.co/QP9YCFr/idx.jpg"
+    },
+    {
+        "id": 3,
+        "title": "TOYOTA CHATBOT",
+        "link": "/work/toyota",
+        "img": "https://i.ibb.co/s6VZWxS/toyota.jpg"
+    },
+    {
+        "id": 4,
+        "title": "RUMAH ZAKAT : SHARING HAPPINESS",
+        "link": "/work/rumahzakat",
+        "img": "https://i.ibb.co/BwspVkR/rumahzakat.jpg"
+    },
+    {
+        "id": 5,
+        "title": "INDOFOOD : MASAKAPAYA",
+        "link": "/work/indofood",
+        "img": "https://i.ibb.co/ZJTWGyL/indofood.jpg"
+    },
+    {
+        "id": 6,
+        "title": "HIJUP.COM",
+        "link": "/work/hijup",
+        "img": "https://i.ibb.co/SsFYJC9/hijup.jpg"
+    },
+    {
+        "id": 7,
+        "title": "EMC HOSPITAL",
+        "link": "/work/hospital",
+        "img": "https://i.ibb.co/B4Vs5L3/emc.jpg"
+    },
+    {
+        "id": 8,
+        "title": "ASTRA : SALES ACTIVITY MANAGEMENT",
+        "link": "/work/astra",
+        "img": "https://i.ibb.co/2dDyM2y/astrasales.jpg"
+    },
+    {
+        "id": 9,
+        "title": "KITABISA.COM",
+        "link": "/work/kitabisa",
+        "img": "https://i.ibb.co/2gRHyxb/kitabisa.jpg"
+    },
+    {
+        "id": 10,
+        "title": "BALI UNITED : MOBILE APPS",
+        "link": "/work/baliunited",
+        "img": "https://i.ibb.co/9w0TZ6k/baliunited.png"
+    },
+    {
+        "id": 11,
+        "title": "SHARP ELECTRONICS",
+        "link": "/work/sharp",
+        "img": "https://i.ibb.co/9gYRzbd/sharp.jpg"
+    },
+    {
+        "id": 12,
+        "title": "YAMAHA : ONLINE BOOKING SYSTEM",
+        "link": "/work/yamaha",
+        "img": "https://i.ibb.co/MkcK3hP/yamaha.jpg"
+    }
+]

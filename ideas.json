@@ -1,0 +1,142 @@
+[
+    {
+        "id": 1,
+        "link": "/",
+        "title": "SEO vs. SEM: The difference & The Strategy",
+        "date": "17 FEBRUARI 2021",
+        "img": "https://i.ibb.co/GpWZHD1/seo.jpg"
+    },
+    {
+        "id": 2,
+        "link": "/",
+        "title":  "The SEO Trends in 2021 for Elevating Business",
+        "date": "17 FEBRUARI 2021",
+        "img": "https://i.ibb.co/F8KXbwS/seotrend.jpg"
+    },
+    {
+        "id": 3,
+        "link": "/",
+        "title": "The Use of SEO in Mobile Apps",
+        "date": "17 FEBRUARI 2021",
+        "img": "https://i.ibb.co/vQTGbB9/seomobile.jpg"
+    },
+    {
+        "id": 4,
+        "link": "/",
+        "title": "The B2B E-Commerce Trends in 2021",
+        "date": "22 DECEMBER 2020",
+        "img": "https://i.ibb.co/KGmbxNs/b2btrend.jpg"
+    },
+    {
+        "id": 5,
+        "link": "/",
+        "title": "The Future of Digital Business Transformation",
+        "date": "21 DECEMBER 2020",
+        "img": "https://i.ibb.co/9vbbRYb/digitaltransform.jpg"
+    },
+    {
+        "id": 6,
+        "link": "/",
+        "title": "The Upcoming Mobile App trends in 2021",
+        "date": "18 DECEMBER 2020",
+        "img": "https://i.ibb.co/XzKg4Hh/mobileapptrend.jpg"
+    },
+    {
+        "id": 7,
+        "link": "/",
+        "title": "The Use of Social Media on E-Commerce",
+        "date": "09 NOVEMBER 2020",
+        "img": "https://i.ibb.co/pLPP6KH/socialmedia.jpg"
+    },
+    {
+        "id": 8,
+        "link": "/",
+        "title": "Managing the Effectiveness of E-Commerce During Covid-19",
+        "date": "09 NOVEMBER 2020",
+        "img": "https://i.ibb.co/phmZqp2/ecommerce.jpg"
+    },
+    {
+        "id": 9,
+        "link": "/",
+        "title": "The Changes in Customer Behavior on E-Commerce During Covid-19",
+        "date": "05 NOVEMBER 2020",
+        "img": "https://i.ibb.co/dr6NDcC/consumerbehav.jpg"
+    },
+    {
+        "id": 10,
+        "link": "/",
+        "title": "The Importance of Digital Branding in Political Campaign",
+        "date": "23 OCTOBER 2020",
+        "img": "https://i.ibb.co/7gbScQy/vote.jpg"
+    },
+    {
+        "id": 11,
+        "link": "/",
+        "title": "Understanding the Use of Mobile Apps in Political Campaign",
+        "date": "06 OCTOBER 2020",
+        "img": "https://i.ibb.co/PWQ6Qr0/vote1.jpg"
+    },
+    {
+        "id": 12,
+        "link": "/",
+        "title": "The Role of Digital Advertising in Political Campaign",
+        "date": "06 OCTOBER 2020",
+        "img": "https://i.ibb.co/kD2vdm8/getmorelead.jpg"
+    },
+    {
+        "id": 13,
+        "link": "/",
+        "title": "How Mobile Apps Changed Food & Beverage Industry",
+        "date": "04 SEPTEMBER 2020",
+        "img": "https://i.ibb.co/R302rvW/foodbever.jpg"
+    },
+    {
+        "id": 14,
+        "link": "/",
+        "title": "The Rise of E-Commerce in Food & Beverage Industry",
+        "date": "04 SEPTEMBER 2020",
+        "img": "https://i.ibb.co/2vqGv5Q/keranjang.jpg"
+    },
+    {
+        "id": 15,
+        "link": "/",
+        "title": "The Importance of Social Media Marketing in Food & Beverage Industry",
+        "date":"04 SEPTEMBER 2020",
+        "img": "https://i.ibb.co/D5dhLT3/sosmedmarket.jpg"
+    },
+    {
+        "id": 16,
+        "link": "/",
+        "title": "Digital Strategy in Automotive Industry During the Pandemic",
+        "date": "10 AUGUST 2020",
+        "img": "https://i.ibb.co/5ncsmcN/digitalstrategy.jpg"
+    },
+    {
+        "id": 17,
+        "link": "/",
+        "title": "Chatbot for Automotive Industry",
+        "date": "08 AUGUST 2020",
+        "img": "https://i.ibb.co/8PMnnQM/chatbot.jpg"
+    },
+    {
+        "id": 18,
+        "link": "/",
+        "title": "The Rise of Automotive Digital Retailing",
+        "date": "08 AUGUST 2020",
+        "img": "https://i.ibb.co/jg7SxXh/automotivedigital.jpg"
+    },
+    {
+        "id": 19,
+        "link": "/",
+        "title": "The Impacts of Big Data in Education",
+        "date": "15 JULY 2020",
+        "img": "https://i.ibb.co/Wcm0DwT/bigdata.jpg"
+    },
+    {
+        "id": 20,
+        "link": "/",
+        "title": "Digital Transformation in Education Technology",
+        "date": "14 JULY 2020",
+        "img": "https://i.ibb.co/v3fWmTx/digitaleducation.jpg"
+    }
+]

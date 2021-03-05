@@ -1,0 +1,92 @@
+$color-primary: #fc8534;
+
+.container {
+
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+    .logo{
+        width: 120px;
+        height: 50px;
+        position: relative;
+        z-index: 100;
+        cursor: pointer
+    }
+    .uls{
+        list-style-type: none;
+        margin-top: 2px;
+        .iconMenu{
+            cursor: pointer;
+            position: relative;
+            z-index: 100;
+            background-color: $color-primary;
+            width: 50px;
+            height: 50px;
+            padding: 18px;        
+            border-radius: 50%;            
+            .iconBars{
+            
+                &:hover{
+                    transform: rotate(90deg);
+                    transition: .3s all ease-in-out;
+                }
+               
+            }
+           
+        }
+        .menu{
+            position: absolute;
+            z-index: 99;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background-color: $color-primary;
+            display: flex;
+            flex-direction: column;
+           opacity: .9;
+            padding-right: 50px;
+            padding-top: 90px;
+            li{
+               color: #fff;
+               font-size: calc(30px + (120 - 90) * ((100vw - 300px) / (1200 - 300)));
+               cursor: pointer;
+               text-align: right;
+               &:hover{
+                   text-decoration: underline;
+               }
+            }
+        }
+    }
+
+}
+
+
+@media screen and (max-width: 450px){
+    .container{
+        padding: 10px 15px;
+        .logo{
+            width: 95px;
+            height: 40px;
+        }
+        .uls{
+            list-style-type: none;
+            margin-top: 2px;
+            .iconMenu{
+                cursor: pointer;
+                position: relative;
+                z-index: 100;
+                background-color: $color-primary;
+                width: 40px;
+                height: 40px;
+                padding: 12px;        
+                border-radius: 50%; 
+            }
+            .menu{
+                li{
+                    font-size: 3rem;
+                }
+            }
+        } 
+    }
+}
