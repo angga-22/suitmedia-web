@@ -1,6 +1,7 @@
 [{
     "id": 1,
     "name": "STRATEGY",
+    "link": "/",
     "desc": "We help big companies understand their customers and create blueprint to solve the problems.",
     "img": "https://i.ibb.co/mDRtYvz/STRATEGY.png"
  },
@@ -8,18 +9,21 @@
  {
      "id": 2,
      "name": "TECHNOLOGY",
+     "link": "/",
      "desc": "We develop iOS, Android, web appliction, e-commerce, and search engine optimization",
      "img": "https://i.ibb.co/k1Rbx4N/TECHNOLOGY.png"
  },
  {
      "id": 3,
      "name": "CREATIVE",
+     "link": "/",
      "desc": "We design beautiful website and apps, write engaging contents, and produce entertaining video",
      "img": "https://i.ibb.co/xJkggCj/CREATIVE.png"
  },
  {
     "id": 4,
     "name": "COMMUNICATION",
+    "link": "/",
     "desc": "We create 360-degree digital campaign through social media, influencers activation, and advertising",
     "img": "https://i.ibb.co/dP2d1t7/COMMUNICATION.png"
  }

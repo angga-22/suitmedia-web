@@ -5,7 +5,7 @@ import Button from '../../components/Button'
 import styles from '../../styles/Home.module.scss';
 
 
-export default function Home({ data, ourwork, featured }) {
+export default function Home({ digital, ourwork, featured }) {
     return (
         <Layout title="Digital Agency Indonesia | Web & Mobile App ...">
             <div className={styles.hero}>
@@ -24,29 +24,25 @@ export default function Home({ data, ourwork, featured }) {
                     </p>
                 </div>
                 <div className={styles.section1Item}>
-                    {data.map(({ id, name, desc, img }) => (
-
-                        <div className={styles.itemWrapper} key={id}>
+                    {digital.map(({ id, name, desc, img }) => (
+                        <div key={id} className={styles.itemWrapper} >
                             <img src={img} alt="img" />
                             <div className={styles.itemContent}>
-
                                 <h1>{name}</h1>
                                 <p>{desc}</p>
                             </div>
                         </div>
-
                     ))}
                 </div>
                 <div className={styles.buttons}>
-
                     <Button title="ABOUT SUITMEDIA" />
                 </div>
             </div>
             <div className={styles.section2}>
                 <h1 className={styles.text}> <span style={{ color: "#fc8534" }}>OUR</span> WORK</h1>
                 <div className={styles.section2Item}>
-                    {ourwork.map(({ id, title, link, img }) => (
-                        <div className={styles.item} key={id}>
+                    {ourwork.map(({ id, title, img }) => (
+                        <div key={id} className={styles.item} >
 
                             <img src={img} alt="ourwork" />
                             <h2>{title}</h2>
@@ -60,15 +56,13 @@ export default function Home({ data, ourwork, featured }) {
             <div className={styles.section3}>
                 <h1 className={styles.text}> <span style={{ color: "#fc8534" }}>FEATURED</span> CLIENTS</h1>
                 <div className={styles.section3Item}>
-                    {featured.map(({ id, link, img }) => (
+                    {featured.map(({ id, img }) => (
                         <div key={id}>
-                            <img src={img} alt="ourwork" />
+                            <img src={img} alt="featured" />
                         </div>
                     ))}
-
                 </div>
                 <div className={styles.buttons}>
-
                     <Button title="START PROJECT WITH US" />
                 </div>
             </div>
@@ -99,7 +93,7 @@ export async function getServerSideProps() {
     const datass = await getFeatured();
     return {
         props: {
-            data: data,
+            digital: data,
             ourwork: datas,
             featured: datass
         }

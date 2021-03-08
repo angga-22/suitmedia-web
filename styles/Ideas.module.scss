@@ -3,7 +3,9 @@ $color-primary: #fc8534;
 .heroIdeas{
     position: relative;
     text-align: center;
-
+    
+    background-position: center;
+    background-size: cover;
    .heroText{
         position: absolute;
         color: #fff;

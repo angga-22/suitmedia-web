@@ -5,8 +5,8 @@ export default (req, res) => {
     res.setHeader("Content-Type", "application/json");
     res.end(
         JSON.stringify(
-            ourwork.map(({ id, title, link, img }) => {
-                return { id, title, link, img }
+            ourwork.map(({ id, title, img }) => {
+                return { id, title, img }
             })
         )
     )

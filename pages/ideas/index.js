@@ -1,5 +1,4 @@
 import axios from 'axios';
-import Link from 'next/link';
 import Layout from '../../layout'
 import styles from '../../styles/Ideas.module.scss';
 import Button from '../../components/Button'

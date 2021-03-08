@@ -5,9 +5,10 @@ export default (req, res) => {
     res.setHeader("Content-Type", "application/json");
     res.end(
         JSON.stringify(
-            digitalAgency.map(({ name, desc, img }) => {
-                return { name, desc, img }
+            digitalAgency.map(({ id, name, desc, img }) => {
+                return { id, name, desc, img }
             })
         )
     )
 }
+
