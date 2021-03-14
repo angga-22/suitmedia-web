@@ -1,0 +1,12 @@
+.container{
+   height: 65vh;
+   width: 100%;
+  position: relative;
+  top: -90px;
+}
+
+@media screen and (min-width: 576px){
+    .container{
+        height: 80vh;
+    }
+}

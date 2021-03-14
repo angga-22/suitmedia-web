@@ -14,6 +14,7 @@ export default function Ideas({ ideas }) {
                         height: "100vh",
                         marginTop: "-90px",
                         zIndex: "-99",
+                        objectFit: "cover"
                     }}
                 />
                 <div className={styles.heroText}>

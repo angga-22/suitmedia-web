@@ -1,4 +1,4 @@
-import ideas from '../../ideas.json';
+import ideas from '../../JSONdata/ideas.json';
 
 
 export default (req, res) => {

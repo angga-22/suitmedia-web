@@ -1,7 +1,6 @@
-$color-primary: #fc8534;
+$color-primary:  #FA7037;
 
 .container {
-
     display: flex;
     justify-content: space-between;
     padding: 10px 40px;
@@ -9,7 +8,7 @@ $color-primary: #fc8534;
         width: 120px;
         height: 50px;
         position: relative;
-        z-index: 100;
+        z-index: 100 !important;
         cursor: pointer
     }
     .uls{
@@ -49,6 +48,7 @@ $color-primary: #fc8534;
             padding-top: 90px;
             li{
                color: #fff;
+               font-weight: bold;
                font-size: calc(30px + (120 - 90) * ((100vw - 300px) / (1200 - 300)));
                cursor: pointer;
                text-align: right;
@@ -84,7 +84,9 @@ $color-primary: #fc8534;
             }
             .menu{
                 li{
-                    font-size: 3rem;
+                    font-size: 2.5rem;
+                    padding-bottom: 10px;
+                    font-weight: bold;
                 }
             }
         } 

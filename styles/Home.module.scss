@@ -45,6 +45,7 @@
 .buttons{
     text-align: center;
     margin: 0 auto;
+    width: 30%;
 }
 
 
@@ -135,9 +136,8 @@
         display: flex;
         flex-direction: column-reverse;
         flex-wrap: wrap-reverse;
- 
         .heroImage{
-                padding-top: 40px;
+            padding-top: 40px;
              display: flex;
              align-items: center;
              img{
@@ -152,7 +152,7 @@
             justify-content: center;
             margin: 0 auto;
             h1{
-                font-size: calc(40px + (120 - 90) * ((38vw - 300px) / (1200 - 300)));
+                font-size: calc(35px + (120 - 90) * ((38vw - 300px) / (1200 - 300)));
                 color: rgb(53, 53, 53)
             }
             p{
@@ -236,6 +236,12 @@
         font-size: 1.4rem;
         
     }
+    .buttons{
+        text-align: center;
+        margin: 0 auto;
+        width: 95%;
+    }
+    
 }
 
 

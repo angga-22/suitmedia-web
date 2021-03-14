@@ -1,4 +1,4 @@
-import digitalAgency from '../../digitalAgency.json';
+import digitalAgency from '../../JSONdata/digitalAgency.json';
 
 export default (req, res) => {
     res.statusCode = 200;

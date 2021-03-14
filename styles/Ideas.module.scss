@@ -64,6 +64,7 @@ $color-primary: #fc8534;
     text-align: center;
     margin: 0 auto;
     padding: 20px;
+    width: 30%;
 }
 
 @media screen and (max-width: 450px){
@@ -98,6 +99,12 @@ $color-primary: #fc8534;
                 opacity: .7;
             }
         }
+    }
+    .buttons{
+        text-align: center;
+        margin: 0 auto;
+        padding: 20px;
+        width: 95%;
     }
     
 }

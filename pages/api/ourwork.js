@@ -1,4 +1,4 @@
-import ourwork from '../../ourwork.json';
+import ourwork from '../../JSONdata/ourwork.json'
 
 export default (req, res) => {
     res.statusCode = 200;
