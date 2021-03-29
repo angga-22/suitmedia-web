@@ -5,6 +5,7 @@ import axios from 'axios';
 import styles from './Career.module.scss'
 import ButtonServices from '../../components/button/ButtonServices'
 import Button from '../../components/button/Button';
+import Link from 'next/link'
 
 export default function Careers({ careers, values }) {
 
@@ -120,9 +121,11 @@ export default function Careers({ careers, values }) {
                         <div>
                         </div>
                     </div>
-                    <div className={styles.reqruitment__button}>
-                        <Button title="START PROJECT WITH US" />
-                    </div>
+                    <Link href="/contact">
+                        <div className={styles.reqruitment__button}>
+                            <Button title="START PROJECT WITH US" />
+                        </div>
+                    </Link>
                 </section >
             </div >
 

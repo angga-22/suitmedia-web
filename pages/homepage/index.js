@@ -3,7 +3,7 @@ import Layout from '../../layout'
 import axios from 'axios'
 import Button from '../../components/button/Button'
 import styles from './Home.module.scss';
-
+import Link from 'next/link'
 
 export default function Home({ digital, ourwork, featured }) {
     return (
@@ -35,9 +35,11 @@ export default function Home({ digital, ourwork, featured }) {
                             </div>
                         ))}
                     </div>
-                    <div className={styles.buttons}>
-                        <Button title="ABOUT SUITMEDIA" />
-                    </div>
+                    <Link href="/about">
+                        <div className={styles.buttons}>
+                            <Button title="ABOUT SUITMEDIA" />
+                        </div>
+                    </Link>
                 </section>
                 <section className={styles.section2}>
                     <h1 className={styles.label}> <span style={{ color: "#fc8534" }}>OUR</span> WORK</h1>
@@ -50,9 +52,11 @@ export default function Home({ digital, ourwork, featured }) {
                             </div>
                         ))}
                     </div>
-                    <div className={styles.buttons}>
-                        <Button title="BROWSE OUR PORTFOLIO" />
-                    </div>
+                    <Link href="/work">
+                        <div className={styles.buttons}>
+                            <Button title="BROWSE OUR PORTFOLIO" />
+                        </div>
+                    </Link>
                 </section>
                 <section className={styles.section3}>
                     <h1 className={styles.label}> <span style={{ color: "#fc8534" }}>FEATURED</span> CLIENTS</h1>
@@ -63,9 +67,12 @@ export default function Home({ digital, ourwork, featured }) {
                             </div>
                         ))}
                     </div>
-                    <div className={styles.buttons}>
-                        <Button title="START PROJECT WITH US" />
-                    </div>
+                    <Link href="/contact">
+                        <div className={styles.buttons}>
+                            <Button title="START PROJECT WITH US" />
+                        </div>
+                    </Link>
+
                 </section>
 
             </div>

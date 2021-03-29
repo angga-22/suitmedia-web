@@ -3,6 +3,7 @@ import { useState } from 'react'
 import Layout from '../../layout';
 import styles from './About.module.scss';
 import Button from '../../components/button/Button'
+import Link from 'next/link';
 
 
 export default function About({ whatwedo }) {
@@ -39,9 +40,11 @@ export default function About({ whatwedo }) {
                                 <p>Measuring the performance of our implementation</p>
                             </div>
                         </div>
-                        <div className={styles.section1__approach__button}>
-                            <Button title="START PROJECT WITH US" />
-                        </div>
+                        <Link href="/contact">
+                            <div className={styles.section1__approach__button}>
+                                <Button title="START PROJECT WITH US" />
+                            </div>
+                        </Link>
                     </div>
                     <div className={styles.section1__cycle}>
                         <img src="https://suitmedia.com/assets/img/diagram-4d-framework.png" alt="cycling" />
@@ -56,9 +59,11 @@ export default function About({ whatwedo }) {
                             <h1>DO</h1>
                             <img src="https://suitmedia.com/assets/img/icon-technology-4.png" alt="img" />
                         </div>
-                        <div className={styles.section2__label__button}>
-                            <Button title="BROWSE OUR PORTFOLIO" />
-                        </div>
+                        <Link href="/work">
+                            <div className={styles.section2__label__button}>
+                                <Button title="BROWSE OUR PORTFOLIO" />
+                            </div>
+                        </Link>
                     </div>
                     <div className={styles.section2__items}>
                         {whatwedo.map(({ id, label, desc, img }) => {

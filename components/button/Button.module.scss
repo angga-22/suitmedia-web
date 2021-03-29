@@ -8,7 +8,13 @@ $color-primary: #fa7037;
     width: fit-content;
     cursor: pointer;
     outline: none;
-    padding: 20px;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    div {
+        display: flex;
+    }
     &:hover {
         background-color: $color-primary;
         color: #fff;

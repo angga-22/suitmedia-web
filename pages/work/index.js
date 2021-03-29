@@ -4,6 +4,7 @@ import Layout from '../../layout'
 import styles from './Work.module.scss'
 import ButtonServices from '../../components/button/ButtonServices'
 import Button from '../../components/button/Button'
+import Link from 'next/link'
 export default function Work({ content, clients }) {
 
     const [clicked, setClicked] = useState(false)
@@ -80,9 +81,12 @@ export default function Work({ content, clients }) {
 
 
                 </section>
-                <div className={styles.buttonss}>
-                    <Button title="START PROJECT WITH US" />
-                </div>
+                <Link href="/contact">
+                    <div className={styles.buttonss}>
+                        <Button title="START PROJECT WITH US" />
+                    </div>
+
+                </Link>
             </div>
         </Layout>
     )

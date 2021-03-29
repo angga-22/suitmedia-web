@@ -2,6 +2,7 @@ import ButtonServices from '../../components/button/ButtonServices'
 import Button from '../../components/button/Button'
 import styles from './Services.module.scss'
 import Layout from '../../layout'
+import Link from 'next/link'
 export default function Services() {
     return (
         <Layout title="Digital Marketing Agency, Web & Mobile Apps Development Services">
@@ -54,9 +55,12 @@ export default function Services() {
                         </div>
                     </div>
                 </section>
-                <div className={styles.buttonAlone}>
-                    <Button title="START PROJECT WITH US" />
-                </div>
+                <Link href="/contact">
+                    <div className={styles.buttonAlone}>
+                        <Button title="START PROJECT WITH US" />
+                    </div>
+                </Link>
+
             </div>
         </Layout >
     )
