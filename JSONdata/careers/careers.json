@@ -1,0 +1,70 @@
+[{
+        "id": 1,
+        "label": "iOS Developer",
+        "role": "You will develop high-quality iOS applications.",
+        "responsible": [
+            "1. Write clean & well-structured codes to build beautiful & robust iPhone/iPad application",
+            "2. Track code changes & collaborate with other developers using Git",
+            "3. Communicate ideas, challenges, needs, progress inboth written and verbal communication"
+        ],
+        "qualify": [
+            "1. Bachelor degree in Computer Science or other majors with practical experiences",
+            "2. Excellent logical skills and algorithmic thinking",
+            "3. Proficient object-oriented programming skills using Swift, Objective-C, Java or C++",
+            "4. Experienced in developing native iOS application",
+            "5. Passionate in mobile application development for all platform (Android, iOS, hybrid)"
+        ],
+        "note": "We work remotely (WFH) by default during pandemic. This position is preferable for Bandung office only"
+    },
+    {
+        "id": 2,
+        "label": "Account Executive Intern",
+        "role": "You will learn good relationship with clients to ensure client success and satisfaction",
+        "responsible": [
+            "1. Learn to manage day-to-day communication between clients and internal team",
+            "2. Learn to ensure all projects delivered on time, on scope, and on budget",
+            "3. Learn to acquire new clients while promoting our brand to target customers"
+        ],
+        "qualify": [
+            "1. Undergraduate student in Communication or other majors with relevant knowledge",
+            "2. Excellent communication skills, both in writing and verbal",
+            "3. Passionate in digital marketing and technology"
+        ],
+        "note": "This position is available for Jakarta, Bandung and Yogyakarta office. We work remotely (WFH) by default during pandemic"
+    },
+    {
+        "id": 3,
+        "label": "Accounting Officer",
+        "role": "You will develop financial report of the company",
+        "responsible": [
+            "1. Develop financial report of the company, including cash flow (monthly and annual), profit/loss statement and balance sheet",
+            "2. Responsible for managing company expense in cooperate"
+        ],
+        "qualify": [
+            "1. Bachelor degree in accounting, management or related field is a plus",
+            "2. Good knowledge in accounting / management, including budget control, income and expense planning and financial reporting",
+            "3. Excellent interpersonal skills",
+            "4. Able to take initiative and work under pressure independently or in a team",
+            "5. Excellent skills in using Microsoft Word and Microsoft Excel"
+        ],
+        "note": "This position is available for Jakarta office only. We work remotely (WFH) by default during pandemic"
+    },
+    {
+        "id": 4,
+        "label": "Android Developer",
+        "role": "You will develop high-quality Android applications.",
+        "responsible": [
+            "1. Write clean & well-structured codes to build beautiful & robust Android application",
+            "2. Track code changes & collaborate with other developers using Git",
+            "3. Communicate ideas, challenges, needs, progress inboth written and verbal communication"
+        ],
+        "qualify": [
+            "1. Bachelor degree in Computer Science or other majors with practical experiences",
+            "2. Excellent logical skills and algorithmic thinking",
+            "3. Proficient object-oriented programming skills using Kotlin, Java or C++",
+            "4. Experienced in developing native Android application",
+            "5. Passionate in mobile application development for all platform (Android, iOS, hybrid)"
+        ],
+        "note": "We work remotely (WFH) by default during pandemic. This position is preferable for Bandung office only"
+    }
+]

@@ -1,0 +1,75 @@
+[{
+
+        "id": 1,
+        "name": "Dandy Risandi",
+        "title": "Art Director",
+        "img": "https://suitmedia.com/files/all_team/dandy_risandi.jpg"
+
+    },
+    {
+        "id": 2,
+        "name": "Dody Kurniawan",
+        "title": "Design Manager",
+        "img": "https://suitmedia.com/files/all_team/dody.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Farhan Fauzan",
+        "title": "Media Manager",
+        "img": "https://suitmedia.com/files/all_team/farhan.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Febrilia Endah",
+        "title": "Digital Media Specialist",
+        "img": "https://suitmedia.com/files/all_team/febrilia-endah-kurniawati.png"
+    },
+    {
+        "id": 5,
+        "name": "Firman Puguh Mandala",
+        "title": "Sr. Visual Designer",
+        "img": "https://suitmedia.com/files/all_team/firman%20(1).jpg"
+    },
+    {
+        "id": 6,
+        "name": "Fuji Muliawati",
+        "title": "Sr. Content Strategies",
+        "img": "https://suitmedia.com/files/all_team/fuji.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Ghina Salsabila",
+        "title": "Content Strategies",
+        "img": "https://suitmedia.com/files/all_team/ghina_salsabila.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Giwang Qulsum",
+        "title": "UX Designer",
+        "img": "https://suitmedia.com/files/all_team/giwang"
+    },
+    {
+        "id": 9,
+        "name": "Priyadi Wicaksono",
+        "title": "Creative Director",
+        "img": "https://suitmedia.com/files/all_team/adi.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Rio Radityo",
+        "title": "Sr. Comm. Engager",
+        "img": "https://suitmedia.com/files/all_team/rio.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Satria Aditya Wibawa",
+        "title": "Sr. Mobile Designer",
+        "img": "https://suitmedia.com/files/all_team/satria_aditya.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Shauma Hayyu Syakura",
+        "title": "Sr. Digital Strategies",
+        "img": "https://suitmedia.com/files/all_team/yukii.jpg"
+    }
+]

@@ -1,0 +1,246 @@
+$color-primary: #ff6800;
+
+.container {
+    .hero {
+        &::after {
+            content: "";
+            display: block;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+        }
+        position: relative;
+        background-position: center;
+        margin-top: -73px;
+        background-size: cover;
+        height: 100vh;
+        object-fit: cover;
+        background-image: url("https://suitmedia.com/assets/img/about-bg-1080x720_00.jpg");
+        color: rgb(77, 77, 77);
+        .text {
+            z-index: 2;
+            width: 95%;
+            position: absolute;
+            top: 45%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: #fff;
+            h1 {
+                font-size: 36px;
+                font-weight: 400;
+                span {
+                    color: $color-primary;
+                }
+            }
+            p {
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 28px;
+            }
+        }
+    }
+    .section1 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: #f2f2f2;
+        padding: 60px 30px;
+        margin: 0 auto;
+        &__approach {
+            &__label {
+                h1 {
+                    font-size: 32px;
+                    font-weight: 700;
+                    span {
+                        background-color: $color-primary;
+                        color: #fff;
+                    }
+                }
+                p {
+                    font-size: 19px;
+                    font-weight: 300;
+                }
+            }
+            &__items {
+                h3 {
+                    font-size: 16px;
+                    font-weight: 700;
+                }
+                p {
+                    font-size: 16px;
+                    font-weight: 300;
+                }
+            }
+            &__button {
+                display: flex;
+                justify-content: center;
+            }
+        }
+        &__cycle {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img {
+                width: 70%;
+            }
+        }
+    }
+    .section2 {
+        width: 100%;
+        position: relative;
+        background-image: url("https://suitmedia.com/assets/img/bg-what-we-do.jpg");
+        &__label {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            &__label1 {
+                margin: 0 auto;
+                h1 {
+                    font-size: 70px;
+                    font-weight: 700;
+                }
+            }
+            &__label2 {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: -110px;
+                h1 {
+                    font-size: 70px;
+                    font-weight: 700;
+                    color: $color-primary;
+                    margin-right: 10px;
+                }
+            }
+            &__button {
+                display: flex;
+                justify-content: center;
+            }
+        }
+        &__items {
+            width: 100%;
+
+            &__item {
+                margin: 0 auto;
+
+                width: 50%;
+                img {
+                    width: 160px;
+                    height: 160px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    display: block;
+                }
+                h1 {
+                    font-size: 18px;
+                    font-weight: 700;
+                    color: $color-primary;
+                    text-align: center;
+                }
+                p {
+                    font-size: 16px;
+                    font-weight: 300;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 450px) {
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        .hero {
+            margin-top: -93px;
+            .text {
+                width: 434px;
+                h1 {
+                    font-size: 90px;
+                    margin-bottom: -20px;
+                }
+            }
+        }
+        .section1 {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            padding: 190px 50px;
+            &__approach {
+                width: 50%;
+            }
+            &__cycle {
+                width: 50%;
+                margin: 0 auto;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                img {
+                    width: 70%;
+                }
+            }
+        }
+        .section2 {
+            &__items {
+                display: grid;
+                grid-template-columns: repeat(2, 50%);
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 992px) {
+}
+
+@media screen and (min-width: 1100px) {
+    .container {
+        .section1 {
+            width: 100%;
+            &__approach {
+                &__button {
+                    display: flex;
+                    justify-content: flex-start;
+                }
+            }
+        }
+        .section2 {
+            display: flex;
+            padding: 100px 0;
+            margin: 0 auto;
+            width: 90%;
+            &__label {
+                width: 50%;
+            }
+            &__items {
+                width: 50%;
+                margin: 10px;
+                &__item {
+                    width: 100%;
+                    img {
+                        display: inline;
+                    }
+                    h1 {
+                        text-align: left;
+                    }
+                    p {
+                        text-align: left;
+                        line-height: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .container {
+        .section1 {
+            width: 100%;
+            padding: 100px 200px;
+        }
+    }
+}

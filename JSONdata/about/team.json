@@ -1,0 +1,300 @@
+[{
+        "business": [{
+                "id": 1,
+                "name": "Ajeng Laras Phitaloka",
+                "title": "Sr. Account Executive",
+                "img": "https://suitmedia.com/files/all_team/ajeng_laras_phitaloka.jpg"
+            },
+            {
+                "id": 2,
+                "name": "Almika Gusnandri Indra",
+                "title": "CEO",
+                "img": "https://suitmedia.com/files/all_team/almika.jpg"
+            },
+            {
+                "id": 3,
+                "name": "Anggriawan Sugianto",
+                "title": "CTO / COO",
+                "img": "https://suitmedia.com/files/all_team/anggriawan.jpg"
+            },
+            {
+                "id": 4,
+                "name": "Denny Prastiaji",
+                "title": "Account Executive",
+                "img": "https://suitmedia.com/files/all_team/denny.png"
+            },
+            {
+                "id": 5,
+                "name": "Ghita Asyifa",
+                "title": "Sr. Account Executive",
+                "img": "https://suitmedia.com/files/all_team/ghita.jpg"
+            },
+            {
+                "id": 6,
+                "name": "Ira Saridewa Rinjani",
+                "title": "Account Manager",
+                "img": "https://suitmedia.com/files/all_team/wawan.jpg"
+            },
+            {
+                "id": 7,
+                "name": "I Ketut Hartawan",
+                "title": "Account Director",
+                "img": "https://suitmedia.com/files/all_team/ira.jpg"
+            },
+            {
+                "id": 8,
+                "name": "Lidya Hanjaya",
+                "title": "Sr. Account Executive",
+                "img": "https://suitmedia.com/files/all_team/lidya.jpg"
+            },
+            {
+                "id": 9,
+                "name": "Martina Pradita",
+                "title": "Asc. Account Manager",
+                "img": "https://suitmedia.com/files/all_team/martina.jpg"
+            },
+            {
+                "id": 10,
+                "name": "Nia Anggriani",
+                "title": "Account Manager",
+                "img": "https://suitmedia.com/files/all_team/nia.jpg"
+            },
+            {
+                "id": 11,
+                "name": "Nisa Imanda",
+                "title": "Account Manager",
+                "img": "https://suitmedia.com/files/all_team/manda.jpg"
+            },
+            {
+                "id": 12,
+                "name": "Ruswita Irmitanti",
+                "title": "Account Director",
+                "img": "https://suitmedia.com/files/all_team/wita.jpg"
+            },
+            {
+                "id": 13,
+                "name": "Seruni PUtri Yudithia",
+                "title": "Asc. Account Manager",
+                "img": "https://suitmedia.com/files/all_team/seruni.jpg"
+            }
+        ]
+    },
+    {
+        "creative": [{
+
+                "id": 1,
+                "name": "Dandy Risandi",
+                "title": "Art Director",
+                "img": "https://suitmedia.com/files/all_team/dandy_risandi.jpg"
+
+            },
+            {
+                "id": 2,
+                "name": "Dody Kurniawan",
+                "title": "Design Manager",
+                "img": "https://suitmedia.com/files/all_team/dody.jpg"
+            },
+            {
+                "id": 3,
+                "name": "Farhan Fauzan",
+                "title": "Media Manager",
+                "img": "https://suitmedia.com/files/all_team/farhan.jpg"
+            },
+            {
+                "id": 4,
+                "name": "Febrilia Endah",
+                "title": "Digital Media Specialist",
+                "img": "https://suitmedia.com/files/all_team/febrilia-endah-kurniawati.png"
+            },
+            {
+                "id": 5,
+                "name": "Firman Puguh Mandala",
+                "title": "Sr. Visual Designer",
+                "img": "https://suitmedia.com/files/all_team/firman%20(1).jpg"
+            },
+            {
+                "id": 6,
+                "name": "Fuji Muliawati",
+                "title": "Sr. Content Strategies",
+                "img": "https://suitmedia.com/files/all_team/fuji.jpg"
+            },
+            {
+                "id": 7,
+                "name": "Ghina Salsabila",
+                "title": "Content Strategies",
+                "img": "https://suitmedia.com/files/all_team/ghina_salsabila.jpg"
+            },
+            {
+                "id": 8,
+                "name": "Giwang Qulsum",
+                "title": "UX Designer",
+                "img": "https://suitmedia.com/files/all_team/giwang"
+            },
+            {
+                "id": 9,
+                "name": "Priyadi Wicaksono",
+                "title": "Creative Director",
+                "img": "https://suitmedia.com/files/all_team/adi.jpg"
+            },
+            {
+                "id": 10,
+                "name": "Rio Radityo",
+                "title": "Sr. Comm. Engager",
+                "img": "https://suitmedia.com/files/all_team/rio.jpg"
+            },
+            {
+                "id": 11,
+                "name": "Satria Aditya Wibawa",
+                "title": "Sr. Mobile Designer",
+                "img": "https://suitmedia.com/files/all_team/satria_aditya.jpg"
+            },
+            {
+                "id": 12,
+                "name": "Shauma Hayyu Syakura",
+                "title": "Sr. Digital Strategies",
+                "img": "https://suitmedia.com/files/all_team/yukii.jpg"
+            }
+        ]
+    },
+    {
+        "development": [{
+                "id": 1,
+                "name": "Abdul Arif",
+                "title": "Software Designer",
+                "img": "https://suitmedia.com/files/all_team/abdul"
+            },
+            {
+                "id": 2,
+                "name": "Abdul Aziz Priatna",
+                "title": "Sr. Software Designer",
+                "img": "https://suitmedia.com/files/all_team/abdul-aziz.jpg"
+            },
+            {
+                "id": 3,
+                "name": "Adnan Hamka Arafat",
+                "title": "Software Designer",
+                "img": "https://suitmedia.com/files/all_team/abnan-hamka-arafat.png"
+            },
+            {
+                "id": 4,
+                "name": "Ahmad Rizki Faizal",
+                "title": "Technical Lead",
+                "img": "https://suitmedia.com/files/all_team/faizal.jpg"
+            },
+            {
+                "id": 5,
+                "name": "Airen Rizky Fauziandini",
+                "title": "Sr. System Analyst",
+                "img": "https://suitmedia.com/files/all_team/airen"
+            },
+            {
+                "id": 6,
+                "name": "Aldio Firando",
+                "title": "Technical Lead",
+                "img": "https://suitmedia.com/files/all_team/aldio_firando.jpg"
+            },
+            {
+                "id": 7,
+                "name": "Andhika Ridhovani",
+                "title": "Sr. Frontend Developer",
+                "img": "https://suitmedia.com/files/all_team/andika.jpg"
+            },
+            {
+                "id": 8,
+                "name": "Ardian Franindo",
+                "title": "Technical Director",
+                "img": "https://suitmedia.com/files/all_team/Ardian_Franindo.jpg"
+            },
+            {
+                "id": 9,
+                "name": "Bella Arif Primadana",
+                "title": "Sr. Software Engineer",
+                "img": "https://suitmedia.com/files/all_team/bella"
+            },
+            {
+                "id": 10,
+                "name": "Chandra Rolexta",
+                "title": "Technical Manager",
+                "img": "https://suitmedia.com/files/all_team/chandra.jpg"
+            },
+            {
+                "id": 11,
+                "name": "Chintya Ananda",
+                "title": "Sr. System Analyst",
+                "img": "https://suitmedia.com/files/all_team/aphe.jpeg"
+            },
+            {
+                "id": 12,
+                "name": "Dimas Yanu Rahmawan",
+                "title": "Software Engineer",
+                "img": "https://suitmedia.com/files/all_team/dimas_yanu_rahmawan.jpg"
+            },
+            {
+                "id": 13,
+                "name": "Dody Darmawan",
+                "title": "Technical Manager",
+                "img": "https://suitmedia.com/files/all_team/dody_darmawan.jpg"
+            },
+            {
+                "id": 14,
+                "name": "Erwin Guntoro",
+                "title": "Software Engineer",
+                "img": "https://suitmedia.com/files/all_team/erwin_Guntoro.jpg"
+            }
+        ]
+    },
+    {
+        "digital": [{
+                "id": 1,
+                "name": "Adi Yulianto",
+                "title": "Art Director",
+                "img": "https://suitmedia.com/files/all_team/adi_yulianto.jpg"
+            },
+            {
+                "id": 2,
+                "name": "Anita Lestari",
+                "title": "Project Manager",
+                "img": "https://suitmedia.com/files/all_team/anita.jpg"
+            },
+            {
+                "id": 3,
+                "name": "Antonio Sompotan",
+                "title": "Art Director",
+                "img": "https://suitmedia.com/files/all_team/antonio.jpg"
+            },
+            {
+                "id": 4,
+                "name": "Argo Pambudi",
+                "title": "Graphic Designer",
+                "img": "https://suitmedia.com/files/all_team/argo.png"
+            }
+        ]
+    },
+    {
+        "support": [{
+                "id": 1,
+                "name": "Agus Sunarya",
+                "title": "Housekeeper",
+                "img": "https://suitmedia.com/files/all_team/agus.jpg"
+            },
+            {
+                "id": 2,
+                "name": "Annisa Ayu Primadani",
+                "title": "Sr. HR Officer",
+                "img": "https://suitmedia.com/files/all_team/icha.jpg"
+            },
+            {
+                "id": 3,
+                "name": "Dedi Mustalib",
+                "title": "Messenger",
+                "img": "https://suitmedia.com/files/all_team/dedi.jpg"
+            },
+            {
+                "id": 4,
+                "name": "Djulianti Gunawan",
+                "title": "Finance Manager",
+                "img": "https://suitmedia.com/files/all_team/djuli.jpg"
+            }
+        ]
+    }
+]

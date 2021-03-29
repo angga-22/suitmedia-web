@@ -1,0 +1,25 @@
+[{
+        "id": 1,
+        "label": "learning while working",
+        "desc": "In here, every day is a chance to master advance skills. Thus, you'll become more and more awesome",
+        "img": "https://suitmedia.com/assets/img/icon-book.png"
+    },
+    {
+        "id": 2,
+        "label": "spirit of fun",
+        "desc": "We all grow together in a fun, creative, and dynamic workplace. The team is guaranteed to always have a good time",
+        "img": "https://suitmedia.com/assets/img/icon-carousel.png"
+    },
+    {
+        "id": 3,
+        "label": "work life balance",
+        "desc": "We know how to use our time in a smart and efficient way. Thus, it isn't hard to find work-life balance at Suitmedia",
+        "img": "https://suitmedia.com/assets/img/icon-balance.png"
+    },
+    {
+        "id": 4,
+        "label": "flexibility at work",
+        "desc": "Employees have the freedom on how and when they work with a goal to increase productivity in the workplace",
+        "img": "https://suitmedia.com/assets/img/icon-flexible.png"
+    }
+]

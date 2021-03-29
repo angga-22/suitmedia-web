@@ -1,7 +1,7 @@
-import ContactForm from "../../components/ContactForm";
-import Maps from "../../components/Maps";
+import ContactForm from "../../components/contactForm/ContactForm";
+import Maps from "../../components/maps/Maps";
 import Layout from '../../layout'
-import styles from '../../styles/Contact.module.scss';
+import styles from './Contact.module.scss';
 export default function Contact() {
 
     return (

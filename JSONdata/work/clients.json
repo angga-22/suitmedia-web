@@ -1,0 +1,33 @@
+[{
+        "id": 1,
+        "label": "automotive",
+        "items": [
+            "https://suitmedia.com/files/uploads/client/image/20201001/agung-automall-5f7558a627c7a-5f7558a627f24-_x66.png?token=12f259745f71e216d18afc57b29daa7b",
+            "https://suitmedia.com/files/uploads/client/image/20201001/daihatsu-5f7558a68e4bf-5f7558a68e757-_x66.png?token=2f371fdf8411461ebbfecd144fdb7993",
+            "https://suitmedia.com/files/uploads/client/image/20201001/astra-5f7558a663c34-5f7558a663ebb-_x66.png?token=f9b1d04699824195112b477351b2ca57",
+            "https://suitmedia.com/files/uploads/client/image/20201001/audi-5f7558a626107-5f7558a626398-_x66.png?token=b173a232d689feedbf3eff5ee5ec83ca",
+            "https://suitmedia.com/files/uploads/client/image/20201001/kawasaki-5f7558a626ec4-5f7558a627138-_x66.png?token=68a2c783d90e2df215b5a224db3ea932",
+            "https://suitmedia.com/files/uploads/client/image/20201001/lexus-5f7558a624625-5f7558a624897-_x66.png?token=ffc724fcb7ce43328a939896e54620ec",
+            "https://suitmedia.com/files/uploads/client/image/20201001/pt-selamat-sempurna-5f7558a67f665-5f7558a67f995-_x66.png?token=a1df128039b12d1a4fc155fc9edc65ff",
+            "https://suitmedia.com/files/uploads/client/image/20201001/toyota-5f7558a61975f-5f7558a6199db-_x66.png?token=78f825536e602eef3555ef8e6524eb96",
+            "https://suitmedia.com/files/uploads/client/image/20201001/triumph-5f7558a6253a1-5f7558a625624-_x66.png?token=92827292d123cbf05b1040edb8938979",
+            "https://suitmedia.com/files/uploads/client/image/20201001/yamaha-5f7558a661f38-5f7558a6621a7-_x66.png?token=216f93ad705e9e343ebb2eeb86c30ecc"
+        ]
+    },
+    {
+        "id": 2,
+        "label": "e-commerce",
+        "items": [
+            "https://suitmedia.com/files/uploads/client/image/20201001/babyloania-5f7558a637531-5f7558a637792-_x66.png?token=b950a8007f0a800b5e4b2a4682d8fdaf",
+            "https://suitmedia.com/files/uploads/client/image/20201001/blanja-5f7558a66bd8f-5f7558a66c049-_x66.png?token=b90531f58a2f72f13865c1ea5a85b061",
+            "https://suitmedia.com/files/uploads/client/image/20201001/bukalapak-5f7558a61a5cc-5f7558a61a83f-_x66.png?token=c936f24695dcb3d9cf6165144334cc44",
+            "https://suitmedia.com/files/uploads/client/image/20201001/chipsakti-logo-5f7558a6382c9-5f7558a638597-_x66.png?token=4744ca1aeab75d54b3d553a089aef46d",
+            "https://suitmedia.com/files/uploads/client/image/20201001/dressing-poin-5f7558a6691eb-5f7558a669534-_x66.png?token=c8373468a33fbc01670f5ceb764fa7fe",
+            "https://suitmedia.com/files/uploads/client/image/20201001/groupon-5f7558a63673b-5f7558a6369e7-_x66.png?token=4728b266db508b56a4115ab758df2c06",
+            "https://suitmedia.com/files/uploads/client/image/20201001/hijup-5f7558a61b39b-5f7558a61b650-_x66.png?token=24ad4339130b566fd11c9c774c430546",
+            "https://suitmedia.com/files/uploads/client/image/20201001/mise-5f7558a665790-5f7558a665a54-_x66.png?token=bb5c222794fcd99671c82f225f886567",
+            "https://suitmedia.com/files/uploads/client/image/20210307/sesa-6044f6ab06987-_x66.png?token=f0728f5b5d894741740b32575baa6faa",
+            "https://suitmedia.com/files/uploads/client/image/20201001/tamam-5f7558a68bbac-5f7558a68be18-_x66.png?token=bcba7a5b38a3e4244a95bb85b8d62a1c"
+        ]
+    }
+]

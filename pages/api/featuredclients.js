@@ -1,4 +1,4 @@
-import featuredclients from '../../JSONdata/featuredclients.json';
+import featuredclients from '../../JSONdata/homepage/featuredclients.json';
 
 export default (req, res) => {
     res.statusCode = 200;

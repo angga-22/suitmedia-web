@@ -1,4 +1,4 @@
-import ideas from '../../JSONdata/ideas/ideas.json';
+import teamCreative from '../../JSONdata/about/teamCreative.json';
 
 
 export default (req, res) => {
@@ -6,8 +6,8 @@ export default (req, res) => {
     res.setHeader("Content-Type", "application/json");
     res.end(
         JSON.stringify(
-            ideas.map(({ id, link, title, date, img }) => {
-                return { id, link, title, date, img }
+            teamCreative.map(({ id, title, name, img }) => {
+                return { id, title, name, img }
             })
         )
     )

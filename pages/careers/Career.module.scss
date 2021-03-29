@@ -1,0 +1,280 @@
+$color-primary: #ff6800;
+
+.container {
+    .hero {
+        &::after {
+            content: "";
+            display: block;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+        }
+        position: relative;
+        background-position: center;
+        margin-top: -73px;
+        background-size: cover;
+        height: 100vh;
+        object-fit: cover;
+        background-image: url("https://suitmedia.com/assets/img/career-bg-1080x720_01.jpg");
+        color: rgb(77, 77, 77);
+        .text {
+            z-index: 2;
+            width: 55%;
+            position: absolute;
+            top: 45%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: #fff;
+            h4 {
+                font-size: 14px;
+                font-weight: 400;
+                text-align: center;
+                margin-bottom: -20px;
+            }
+            h3 {
+                font-size: 28px;
+                font-weight: 400;
+                text-align: center;
+                .mantra {
+                    color: $color-primary;
+                }
+                .quality {
+                    background-color: $color-primary;
+                }
+            }
+        }
+    }
+    .valuesContainer {
+        position: relative;
+        background-position: center;
+        background-size: cover;
+        background-image: url("https://suitmedia.com/assets/img/bg-what-we-do.jpg");
+        .values {
+            width: 90%;
+            margin: 50px auto;
+            &__label {
+                h2 {
+                    color: $color-primary;
+                    text-align: center;
+                    font-size: 24.8px;
+                    font-weight: 700;
+                }
+            }
+            &__category {
+                display: flex;
+                flex-direction: column;
+                justify-content: center !important;
+                &__item {
+                    margin: 20px;
+                    img {
+                        display: block;
+                        margin: 0 auto !important;
+                    }
+                    h4 {
+                        text-align: center;
+                        font-size: 18.6px;
+                        font-weight: 700;
+                        color: $color-primary;
+                    }
+                    p {
+                        text-align: center;
+                        font-size: 14px;
+                        font-weight: 300;
+                    }
+                }
+            }
+        }
+    }
+    .activity {
+        background-color: #f2f2f2;
+        margin: 0 auto;
+        width: 100%;
+        padding: 100px 5%;
+        &__label {
+            text-align: center;
+
+            h2 {
+                font-size: 52px;
+                font-weight: 400;
+            }
+            span {
+                color: $color-primary;
+            }
+        }
+        &__video {
+            width: 100%;
+            height: 100%;
+
+            iframe {
+                width: 100%;
+                height: 200px;
+            }
+        }
+        &__button {
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+        }
+    }
+    .reqruitment {
+        width: 95%;
+        margin: 0 auto;
+        &__label {
+            h1 {
+                font-size: 52px;
+                font-weight: 400;
+                text-align: center;
+                span {
+                    color: $color-primary;
+                }
+            }
+        }
+        &__items {
+            width: 95%;
+
+            margin: 0 auto;
+            &__item {
+                &__title {
+                    display: flex;
+                    background-color: #e6e6e6;
+                    justify-content: space-between;
+                    padding: 10px;
+                    border: solid 1px black;
+                    border-radius: 2px;
+                    h1 {
+                        font-size: 21px;
+                        color: #333333;
+                        font-weight: 300;
+                    }
+                }
+            }
+        }
+        &__button {
+            margin-top: 50px;
+            display: flex;
+            justify-content: center;
+        }
+    }
+}
+
+@media screen and (min-width: 450px) {
+    .container {
+        .activity {
+            &__video {
+                iframe {
+                    height: 300px;
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width: 768px) {
+    .container {
+        .hero {
+            margin-top: -93px;
+            .text {
+                width: 634px;
+                margin-top: 70px;
+                h4 {
+                    font-size: 36px;
+                    margin-bottom: -70px;
+                }
+                h3 {
+                    font-size: 72px;
+                }
+            }
+        }
+        .activity {
+            &__video {
+                iframe {
+                    height: 400px;
+                }
+            }
+        }
+        .reqruitment {
+            &__label {
+                text-align: center;
+                h1 {
+                    font-size: 52px;
+                    font-weight: 400;
+                    span {
+                        color: $color-primary;
+                    }
+                }
+            }
+            &__items {
+                display: grid;
+                grid-template-columns: 50% 50%;
+                &__item {
+                    &__title {
+                        display: flex;
+                        background-color: #e6e6e6;
+                        justify-content: space-between;
+                        padding: 10px;
+                        border: solid 1px black;
+                        border-radius: 2px;
+                        h1 {
+                            font-size: 21px;
+                            color: #333333;
+                            font-weight: 300;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width: 992px) {
+    .container {
+        .activity {
+            &__video {
+                width: 80%;
+                margin: 0 auto;
+                iframe {
+                    height: 400px;
+                }
+            }
+        }
+        .reqruitment {
+            &__label {
+                width: 80%;
+                margin: 0 auto;
+            }
+        }
+    }
+}
+@media screen and (min-width: 1100px) {
+    .container {
+        .valuesContainer {
+            padding: 100px 0;
+            .values {
+                width: 80%;
+                &__category {
+                    display: flex;
+                    flex-direction: row;
+                }
+            }
+        }
+        .activity {
+            &__video {
+                width: 65%;
+                margin: 0 auto;
+                iframe {
+                    height: 450px;
+                }
+            }
+        }
+        .reqruitment {
+            &__label {
+                width: 50%;
+                margin: 0 auto;
+            }
+            &__items {
+                width: 80%;
+            }
+        }
+    }
+}

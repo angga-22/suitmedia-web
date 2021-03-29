@@ -1,0 +1,45 @@
+[{
+        "id": 1,
+        "label": "strategy",
+        "desc": [
+            "digital & it advisory",
+            "ux & market research",
+            "development consultation",
+            "monitoring & analytics"
+        ],
+        "img": "https://suitmedia.com/assets/img/icon-what-we-do-1.png"
+    },
+    {
+        "id": 2,
+        "label": "creative",
+        "desc": [
+            "brand development",
+            "ui/ux design",
+            "content creation",
+            "motion & videography"
+        ],
+        "img": "https://suitmedia.com/assets/img/icon-what-we-do-2.png"
+    },
+    {
+        "id": 3,
+        "label": "technology",
+        "desc": [
+            "ios & android development",
+            "web development",
+            "e-commerce solutions",
+            "search engine optimization"
+        ],
+        "img": "https://suitmedia.com/assets/img/icon-what-we-do-3.png"
+    },
+    {
+        "id": 4,
+        "label": "communication",
+        "desc": [
+            "creative campaign",
+            "social media management",
+            "digital advertising",
+            "influencer marketing"
+        ],
+        "img": "https://suitmedia.com/assets/img/icon-what-we-do-4.png"
+    }
+]

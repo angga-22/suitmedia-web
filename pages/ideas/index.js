@@ -1,42 +1,30 @@
 import axios from 'axios';
 import Layout from '../../layout'
-import styles from '../../styles/Ideas.module.scss';
-import Button from '../../components/Button'
+import styles from './Ideas.module.scss';
+import Button from '../../components/button/Button'
 export default function Ideas({ ideas }) {
     return (
         <Layout title="Suitmedia Insights : Digital Marketing, Web, Mobile ...">
             <div className={styles.heroIdeas}>
-                <img
-                    src="https://i.ibb.co/W2R75tm/ideas.jpg"
-                    alt="ideas"
-                    style={{
-                        width: "100vw",
-                        height: "100vh",
-                        marginTop: "-90px",
-                        zIndex: "-99",
-                        objectFit: "cover"
-                    }}
-                />
-                <div className={styles.heroText}>
-
+                <div className={styles.label}>
                     <h1>IDEAS</h1>
-                    <p>Where all our great things begin</p>
+                    <h4>Where all our great things begin</h4>
                 </div>
 
             </div>
-            <div className={styles.ideasContent}>
+            <div className={styles.ideasGroup}>
                 {ideas.map(({ id, link, title, date, img }) => {
                     return (
-                        <div className={styles.ideaContent} key={id}>
-
-
+                        <div className={styles.ideasItem} key={id}>
                             <img
                                 src={img}
                                 alt="imgideas"
-                                style={{ width: "100%" }}
+
                             />
-                            <p>{date}</p>
-                            <h4>{title}</h4>
+                            <div className={styles.body}>
+                                <p>{date}</p>
+                                <h4>{title}</h4>
+                            </div>
                             <div className={styles.sub}>
                                 <p>Read More</p>
                             </div>
